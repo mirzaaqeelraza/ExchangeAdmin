@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<font color='green'>Browser got launched</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Navigated to Application UR</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='dark green'>User got successfully logged in using Email / Username: superdmin@gmail.com and Password: 123456</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Browser got closed</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Browser got launched</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Navigated to Application UR</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='dark green'>User got failed to log in using Email / Username: superdmin@gmail.com and Password: 11</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Browser got closed</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Browser got launched</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Navigated to Application UR</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='dark green'>User got failed to log in using Email / Username: superadmin@gmail.com and Password: 123456</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Browser got closed</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Browser got launched</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Navigated to Application UR</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='dark green'>User got failed to log in using Email / Username: superdmin@gmail.com and Password: </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Browser got closed</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Browser got launched</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Navigated to Application UR</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='dark green'>User got failed to log in using Email / Username:   and Password: 12346</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Browser got closed</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Browser got launched</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Navigated to Application UR</font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='dark green'>User got failed to log in using Email / Username:   and Password: </font>]]>
+    </line>
+    <line>
+      <![CDATA[<font color='green'>Browser got closed</font>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-12-21T16:22:28 IST" name="Default suite" finished-at="2023-12-21T16:25:20 IST" duration-ms="171944">
+    <groups>
+    </groups>
+    <test started-at="2023-12-21T16:22:28 IST" name="Default test" finished-at="2023-12-21T16:25:20 IST" duration-ms="171944">
+      <class name="com.ExchangeAdmin.LoginTest.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ExchangeAdmin.LoginTest.LoginTest@4b013c76]" started-at="2023-12-21T16:22:28 IST" name="setup" finished-at="2023-12-21T16:22:28 IST" duration-ms="458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:com.ExchangeAdmin.LoginTest.LoginTest@4b013c76]" started-at="2023-12-21T16:22:28 IST" name="openApplication" finished-at="2023-12-21T16:22:43 IST" duration-ms="14474" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='green'>Browser got launched</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Navigated to Application UR</font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.ExchangeAdmin.LoginTest.LoginTest@4b013c76]" started-at="2023-12-21T16:22:43 IST" name="login" data-provider="LoginTestData" finished-at="2023-12-21T16:22:52 IST" duration-ms="9073" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[superdmin@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Success]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='dark green'>User got successfully logged in using Email / Username: superdmin@gmail.com and Password: 123456</font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="closure()[pri:0, instance:com.ExchangeAdmin.LoginTest.LoginTest@4b013c76]" started-at="2023-12-21T16:22:52 IST" name="closure" finished-at="2023-12-21T16:22:52 IST" duration-ms="297" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='green'>Browser got closed</font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closure -->
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:com.ExchangeAdmin.LoginTest.LoginTest@4b013c76]" started-at="2023-12-21T16:22:52 IST" name="openApplication" finished-at="2023-12-21T16:23:04 IST" duration-ms="12191" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='green'>Browser got launched</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Navigated to Application UR</font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.ExchangeAdmin.LoginTest.LoginTest@4b013c76]" started-at="2023-12-21T16:23:04 IST" name="login" data-provider="LoginTestData" finished-at="2023-12-21T16:23:21 IST" duration-ms="16543" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[superdmin@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Failure]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='dark green'>User got failed to log in using Email / Username: superdmin@gmail.com and Password: 11</font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="closure()[pri:0, instance:com.ExchangeAdmin.LoginTest.LoginTest@4b013c76]" started-at="2023-12-21T16:23:21 IST" name="closure" finished-at="2023-12-21T16:23:21 IST" duration-ms="246" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='green'>Browser got closed</font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closure -->
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:com.ExchangeAdmin.LoginTest.LoginTest@4b013c76]" started-at="2023-12-21T16:23:21 IST" name="openApplication" finished-at="2023-12-21T16:23:34 IST" duration-ms="12680" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='green'>Browser got launched</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Navigated to Application UR</font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.ExchangeAdmin.LoginTest.LoginTest@4b013c76]" started-at="2023-12-21T16:23:34 IST" name="login" data-provider="LoginTestData" finished-at="2023-12-21T16:23:50 IST" duration-ms="16568" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[superadmin@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Failure]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='dark green'>User got failed to log in using Email / Username: superadmin@gmail.com and Password: 123456</font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="closure()[pri:0, instance:com.ExchangeAdmin.LoginTest.LoginTest@4b013c76]" started-at="2023-12-21T16:23:50 IST" name="closure" finished-at="2023-12-21T16:23:50 IST" duration-ms="224" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='green'>Browser got closed</font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closure -->
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:com.ExchangeAdmin.LoginTest.LoginTest@4b013c76]" started-at="2023-12-21T16:23:50 IST" name="openApplication" finished-at="2023-12-21T16:24:03 IST" duration-ms="12581" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='green'>Browser got launched</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Navigated to Application UR</font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.ExchangeAdmin.LoginTest.LoginTest@4b013c76]" started-at="2023-12-21T16:24:03 IST" name="login" data-provider="LoginTestData" finished-at="2023-12-21T16:24:20 IST" duration-ms="16541" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[superdmin@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Failure]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='dark green'>User got failed to log in using Email / Username: superdmin@gmail.com and Password: </font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="closure()[pri:0, instance:com.ExchangeAdmin.LoginTest.LoginTest@4b013c76]" started-at="2023-12-21T16:24:20 IST" name="closure" finished-at="2023-12-21T16:24:20 IST" duration-ms="215" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='green'>Browser got closed</font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closure -->
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:com.ExchangeAdmin.LoginTest.LoginTest@4b013c76]" started-at="2023-12-21T16:24:20 IST" name="openApplication" finished-at="2023-12-21T16:24:33 IST" duration-ms="13129" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='green'>Browser got launched</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Navigated to Application UR</font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.ExchangeAdmin.LoginTest.LoginTest@4b013c76]" started-at="2023-12-21T16:24:33 IST" name="login" data-provider="LoginTestData" finished-at="2023-12-21T16:24:49 IST" duration-ms="16448" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12346]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Failure]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='dark green'>User got failed to log in using Email / Username:   and Password: 12346</font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="closure()[pri:0, instance:com.ExchangeAdmin.LoginTest.LoginTest@4b013c76]" started-at="2023-12-21T16:24:49 IST" name="closure" finished-at="2023-12-21T16:24:50 IST" duration-ms="253" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='green'>Browser got closed</font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closure -->
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:com.ExchangeAdmin.LoginTest.LoginTest@4b013c76]" started-at="2023-12-21T16:24:50 IST" name="openApplication" finished-at="2023-12-21T16:25:02 IST" duration-ms="12638" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='green'>Browser got launched</font>]]>
+            </line>
+            <line>
+              <![CDATA[<font color='green'>Navigated to Application UR</font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.ExchangeAdmin.LoginTest.LoginTest@4b013c76]" started-at="2023-12-21T16:25:02 IST" name="login" data-provider="LoginTestData" finished-at="2023-12-21T16:25:19 IST" duration-ms="16386" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Failure]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='dark green'>User got failed to log in using Email / Username:   and Password: </font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="closure()[pri:0, instance:com.ExchangeAdmin.LoginTest.LoginTest@4b013c76]" started-at="2023-12-21T16:25:19 IST" name="closure" finished-at="2023-12-21T16:25:19 IST" duration-ms="233" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<font color='green'>Browser got closed</font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closure -->
+        <test-method is-config="true" signature="reportTeardown()[pri:0, instance:com.ExchangeAdmin.LoginTest.LoginTest@4b013c76]" started-at="2023-12-21T16:25:19 IST" name="reportTeardown" finished-at="2023-12-21T16:25:20 IST" duration-ms="635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportTeardown -->
+      </class> <!-- com.ExchangeAdmin.LoginTest.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
