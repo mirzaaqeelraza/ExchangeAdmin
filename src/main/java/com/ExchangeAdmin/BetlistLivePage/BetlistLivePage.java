@@ -26,6 +26,9 @@ public class BetlistLivePage {
     
     @FindBy(xpath = "//ul[@role=\"menu\"]")
     List<WebElement> columnLabels;
+    
+    @FindBy(id = "checkboxId")
+    private WebElement checkbox;
 
     public List<WebElement> getColumnLabels() {
         return columnLabels;
@@ -36,7 +39,6 @@ public class BetlistLivePage {
 
 	
 	public WebElement My_BetlistLivePage() {
-		// TODO Auto-generated method stub
 		return myBetlistLive;
 	}
 	
@@ -51,5 +53,38 @@ public class BetlistLivePage {
     public void closeColumnChooser() {
         closeColumnChooserButton.click();
     }
+    
+    
+    ///  Selecting CheckBox
+    public void selectCheckbox() {
+        try {
+            if (!checkbox.isSelected()) {
+                checkbox.click();
+                System.out.println("Checkbox selected successfully.");
+            } else {
+                System.out.println("Checkbox is already selected.");
+            }
+        } catch (Exception e) {
+            System.out.println("Exception occurred while selecting checkbox: " + e.getMessage());
+        }
+    }
+
+    
+    /// Unselecting CheckBox
+    public void unselectCheckbox() {
+        try {
+            if (checkbox.isSelected()) {
+                checkbox.click();
+                System.out.println("Checkbox unselected successfully.");
+            } else {
+                System.out.println("Checkbox is already unselected.");
+            }
+        } catch (Exception e) {
+            System.out.println("Exception occurred while unselecting checkbox: " + e.getMessage());
+        }
+    }
+
+    
+    
 }
 
